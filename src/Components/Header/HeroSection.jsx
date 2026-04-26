@@ -34,7 +34,7 @@ export const HeroSection = () => {
             className="border border-[rgb(255 255 255 / 20%)] bg-transparent text-[white] font-Manrope  p-(--customPadding) cursor-pointer"
           >
             <a
-              href="../Resume/Priyanshu Pramanik.pdf"
+              href="/Resume/Priyanshu Pramanik.pdf"
               className="inline-flex gap-4 items-center text-[11.9px] md:text-[12.9px] transition"
               download={"Priyanshu Pramanik.pdf"}
             >
