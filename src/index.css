@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import "tailwindcss";
+
+
+@theme{
+    --font-Instrument: "Instrument Serif", Georgia, serif;
+    --font-Manrope: "Manrope, sans serif"
+    --color-dim: rgba(255,255,255,0.35);
+    --color-bar: rgba(255,255,255,0.1);
+    --customPadding: 14.2px 26.4px 14.2px 26.4px
+    
+}
