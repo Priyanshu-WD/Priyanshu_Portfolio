@@ -100,7 +100,7 @@ export const Header = () => {
           </motion.li>
         </ul>
         <div>
-          <div className="text-green-500 text-[10.9px] tracking-wider ">
+          <div className="text-green-500 text-[12.9px] tracking-wider ">
             &middot; Available
           </div>
         </div>
