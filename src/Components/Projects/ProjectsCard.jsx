@@ -13,22 +13,25 @@ export const ProjectCard = () => {
             className="border border-[#ffffff14] w-full md:w-90.5 p-4 rounded-2xl relative overflow-hidden cursor-pointer"
           >
             <img
-              className="mb-2 rounded-[5px]"
+              className="mb-3 rounded-[5px]"
               src="/Priyanshu_Portfolio/images/SunnySide.png"
               alt="Sunnyside Thumbnail"
             />
-            <div className="text-end text-green-400 font-Manrope tracking-wider">
-              {/* <a className="bg-[#7bf1a847]  rounded-2xl p-1 border text-[12px] text-center flex items-center pr-2.5"><span className="inline-block w-[10px] h-[10px] rounded-[50%] bg-green-400"></span>LIVE</a> */}
+          
+            <div className="grid justify-end mb-3">
+                  <span className="border border-green-500 rounded p-[var(--paddingStatus)]">
+              <span className="text-green-500 ">Live</span>
+            </span>
             </div>
+            
+
             <p className="text-white mb-3 font-Manrope ">
               SunnySide Landing Page
             </p>
             <p className="text-white text-[10px]">
               Tech Stack: ReactJs || TailwindCSS || Responsive
             </p>
-            <div>
-
-            </div>
+            <div></div>
             <motion.div
               variants={{
                 hovered: { scaleY: 1 },
@@ -60,33 +63,38 @@ export const ProjectCard = () => {
         <div>
           <Link to="/project/AltouraAllPages">
             <motion.div
-            whileHover="hovered"
-            className="border border-[#ffffff14] w-full md:w-90.5 p-4 rounded-2xl relative overflow-hidden cursor-pointer">
+              whileHover="hovered"
+              className="border border-[#ffffff14] w-full md:w-90.5 p-4 rounded-2xl relative overflow-hidden cursor-pointer"
+            >
               <img
-                className="mb-2 rounded-[5px]"
+                className="mb-3 rounded-[5px]"
                 src="/Priyanshu_Portfolio/images/Altoura.png"
                 alt=""
               />
+              <div className="grid justify-end mb-3">
+                  <span className="border border-green-500 rounded p-[var(--paddingStatus)]">
+              <span className="text-green-500 ">Live</span>
+            </span>
+            </div>
               <p className="text-white mb-3">Altoura Freelancing Pages</p>
               <p className="text-white text-[10px]">
                 Tech Stack: HTML5 || CSS || JavaScript || Responsive
               </p>
-                <motion.div
-              variants={{
-                hovered: { scaleY: 1 },
-              }}
-              initial={{ scaleY: 0 }}
-              transition={{ duration: 0.65, ease: [0.4, 0, 0.2, 1] }}
-              style={{ transformOrigin: "bottom" }}
-              className="bg-white opacity-45 flex items-center justify-center absolute inset-0 z-10 "
-            >
+              <motion.div
+                variants={{
+                  hovered: { scaleY: 1 },
+                }}
+                initial={{ scaleY: 0 }}
+                transition={{ duration: 0.65, ease: [0.4, 0, 0.2, 1] }}
+                style={{ transformOrigin: "bottom" }}
+                className="bg-white opacity-45 flex items-center justify-center absolute inset-0 z-10 "
+              >
                 <img
                   className="w-16"
                   src="/Priyanshu_Portfolio/images/share.svg"
                   alt="redirectIcon"
                 />
-            
-            </motion.div>
+              </motion.div>
               <div></div>
             </motion.div>
           </Link>
@@ -101,10 +109,15 @@ export const ProjectCard = () => {
             className="border border-[#ffffff14] w-full md:w-90.5 p-4 rounded-2xl relative overflow-hidden cursor-pointer"
           >
             <img
-              className="mb-2 rounded-[5px]"
+              className="mb-3 rounded-[5px]"
               src="/Priyanshu_Portfolio/images/Fitting Cache.png"
               alt="FittingThumbnail"
             />
+            <div className="grid justify-end mb-3">
+                  <span className="border border-green-500 rounded p-[var(--paddingStatus)]">
+              <span className="text-green-500 ">Live</span>
+            </span>
+            </div>
             <p className="text-white mb-3">Fitting Cache Freelancing Project</p>
             <p className="text-white text-[10px]">
               Tech Stack: Shopify || HTML || CSS || JavaScript || Responsive
